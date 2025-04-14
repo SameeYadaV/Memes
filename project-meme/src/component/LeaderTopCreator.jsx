@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 export const LeaderTopCreator = () => {
  
   return (
+   <>
+    <Header/>
     <div className='mx-35 flex flex-col items-center mt-10 ' >
         <div className='h-20 w-200 bg-indigo-300 rounded-2xl border-r-8 border-b-8 border-black ' >
             <p className='text-white mt-3 text-xl ' >Top Meme Creators</p>
@@ -19,5 +21,7 @@ export const LeaderTopCreator = () => {
             <p>100 pts</p></div>
         </div>
     </div>
+    <Footer/>
+   </>
   )
 }
